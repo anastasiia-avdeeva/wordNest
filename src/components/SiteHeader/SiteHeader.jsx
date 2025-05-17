@@ -9,9 +9,11 @@ import styles from "./SiteHeader.module.css";
 export const SiteHeader = () => {
   return (
     <header className={styles.header}>
-      <SiteLogo variant="header__logo" icon={logo} />
-      <NavBar />
-      <SearchPanel inputId="headerSearch" inputName="headerSearch" />
+      <div className={styles["header__first-line"]}>
+        <SiteLogo variant="header__logo" icon={logo} />
+        <NavBar />
+        <SearchPanel inputId="headerSearch" inputName="headerSearch" />
+      </div>
     </header>
   );
 };

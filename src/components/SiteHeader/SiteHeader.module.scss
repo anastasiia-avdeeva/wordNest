@@ -1,10 +1,14 @@
 .header {
-  margin: 0 auto;
-  padding: 20px;
-  width: 90%;
-  min-height: 120px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
+  box-shadow: 0px -1px 0px 0px #e0e0e0 inset;
+
+  &__first-line {
+    margin: 0 auto;
+    padding: 20px;
+    width: 95%;
+    min-height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
 }
