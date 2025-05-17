@@ -1,0 +1,43 @@
+@import "vars";
+
+//fonts
+@mixin Heading-base-font {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin Text-base-font {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+@mixin Body-label-font {
+  @include Text-base-font;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+@mixin Body1-font {
+  @include Body-label-font;
+  font-size: 24px;
+  letter-spacing: -0.72px;
+}
+
+@mixin Body2-font {
+  @include Body-label-font;
+  font-size: 22px;
+  letter-spacing: -0.64px;
+}
+
+@mixin Body3-font {
+  @include Body-label-font;
+  font-size: 20px;
+  letter-spacing: -0.56px;
+}
+
+@mixin Label-font {
+  @include Body-label-font;
+  font-size: 18px;
+  letter-spacing: -0.48px;
+}
