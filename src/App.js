@@ -1,3 +1,4 @@
+import "./assets/styles/normalize.css";
 import "./App.css";
 import { MainPage } from "./components/MainPage";
 
