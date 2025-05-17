@@ -1,0 +1,18 @@
+.logo {
+  margin-top: 9px;
+  margin-bottom: 9px;
+  height: 79px;
+  width: 77px;
+}
+.logo__img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.header__logo {
+  margin-top: 9px;
+  margin-bottom: 9px;
+  height: 79px;
+  width: 77px;
+}
