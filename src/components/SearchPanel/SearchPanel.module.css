@@ -4,10 +4,16 @@
 }
 .search-panel__input {
   padding: 4px;
-  height: 30px;
+  height: 40px;
   min-width: 180px;
   border: 1px solid #c3dce3;
   border-radius: 6px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  font-size: 22px;
+  letter-spacing: -0.64px;
 }
 .search-panel__input:focus {
   border-color: #2b788b;

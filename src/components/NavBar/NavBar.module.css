@@ -1,0 +1,12 @@
+.nav__list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  font-size: 22px;
+  letter-spacing: -0.64px;
+  color: #757575;
+}

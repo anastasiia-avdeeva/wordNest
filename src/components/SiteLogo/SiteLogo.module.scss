@@ -1,12 +1,9 @@
 .logo {
-  margin-top: 9px;
-  margin-bottom: 9px;
-  height: 79px;
-  width: 77px;
+  flex-shrink: 0;
 
   &__img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: contain;
   }
 }
