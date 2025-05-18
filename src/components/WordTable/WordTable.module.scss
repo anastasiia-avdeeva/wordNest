@@ -1,0 +1,27 @@
+@import "../../assets/styles/vars";
+@import "../../assets/styles/mixins";
+
+.table {
+  margin: 50px auto;
+  width: 92%;
+  border-collapse: collapse;
+  text-align: center;
+  @include Body1-font;
+
+  &__header {
+    background-color: $primary-light;
+  }
+
+  &__body {
+    background-color: $text-white;
+    // color: $text-dark;
+
+    & tr:last-child td:first-child {
+      border-bottom-left-radius: 12px;
+    }
+
+    & tr:last-child td:last-child {
+      border-bottom-right-radius: 12px;
+    }
+  }
+}

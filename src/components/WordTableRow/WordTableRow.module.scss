@@ -1,0 +1,18 @@
+@import "../../assets/styles/vars";
+@import "../../assets/styles/mixins";
+
+.table {
+  &__cell {
+    height: $row-height;
+    border-right: 1px solid $primary;
+    border-top: 1px solid $primary;
+
+    &:first-child {
+      font-weight: bold;
+    }
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+}

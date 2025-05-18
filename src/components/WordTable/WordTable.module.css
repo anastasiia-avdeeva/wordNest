@@ -1,0 +1,24 @@
+.table {
+  margin: 50px auto;
+  width: 92%;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  font-size: 22px;
+  letter-spacing: -0.72px;
+}
+.table__header {
+  background-color: #c3dce3;
+}
+.table__body {
+  background-color: #fff;
+}
+.table__body tr:last-child td:first-child {
+  border-bottom-left-radius: 12px;
+}
+.table__body tr:last-child td:last-child {
+  border-bottom-right-radius: 12px;
+}
