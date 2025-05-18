@@ -28,3 +28,11 @@ export const words = [
     theme: "Природа",
   },
 ];
+
+export const wordTableHeader = [
+  "Cлово",
+  "Транскрипция",
+  "Перевод",
+  "Тема",
+  "Управление",
+];
