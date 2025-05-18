@@ -27,6 +27,14 @@ export const words = [
     translation: "солнце",
     theme: "Природа",
   },
+
+  {
+    id: 5,
+    word: "butterfly",
+    transcription: "[ˈbʌt.ə.flaɪ]",
+    translation: "бабочка",
+    theme: "Животные",
+  },
 ];
 
 export const wordTableHeader = [
