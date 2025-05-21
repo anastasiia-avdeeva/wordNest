@@ -5,6 +5,7 @@ import { WordEditableRow } from "../WordEditableRow/WordEditableRow";
 import styles from "./WordTable.module.css";
 
 export const WordTable = () => {
+  const onEdit = 1;
   return (
     <table className={styles.table}>
       <thead className={styles.table__header}>
@@ -12,7 +13,7 @@ export const WordTable = () => {
       </thead>
       <tbody className={styles.table__body}>
         {words.map((word) =>
-          word.id === 1 ? (
+          word.id === onEdit ? (
             <WordEditableRow key={word.id} word={word} />
           ) : (
             <WordTableRow key={word.id} word={word} />
