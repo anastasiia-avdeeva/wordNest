@@ -1,6 +1,7 @@
 import { wordTableHeader, words } from "../../constants/constants";
 import { HeaderTableRow } from "../HeaderTableRow/HeaderTableRow";
 import { WordTableRow } from "../WordTableRow/WordTableRow";
+import { WordEditableRow } from "../WordEditableRow/WordEditableRow";
 import styles from "./WordTable.module.css";
 
 export const WordTable = () => {
@@ -10,9 +11,13 @@ export const WordTable = () => {
         <HeaderTableRow array={wordTableHeader} />
       </thead>
       <tbody className={styles.table__body}>
-        {words.map((word) => (
-          <WordTableRow key={word.id} word={word} />
-        ))}
+        {words.map((word) =>
+          word.id === 1 ? (
+            <WordEditableRow key={word.id} word={word} />
+          ) : (
+            <WordTableRow key={word.id} word={word} />
+          )
+        )}
       </tbody>
     </table>
   );

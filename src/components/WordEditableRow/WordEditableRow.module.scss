@@ -1,0 +1,8 @@
+@import "../../assets/styles/mixins";
+
+.table {
+  &__input {
+    @include input-text;
+    width: 95%;
+  }
+}
