@@ -1,4 +1,5 @@
 .table__cell {
+  padding: 10px;
   height: 60px;
   border-right: 1px solid #2b788b;
   border-top: 1px solid #2b788b;
@@ -8,4 +9,10 @@
 }
 .table__cell:last-child {
   border-right: none;
+}
+.table__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }

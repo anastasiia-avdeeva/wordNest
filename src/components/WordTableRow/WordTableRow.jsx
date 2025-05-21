@@ -12,7 +12,7 @@ export const WordTableRow = ({ word }) => {
       <td className={styles.table__cell}>{capitalizeStr(word.translation)}</td>
       <td className={styles.table__cell}>{capitalizeStr(word.theme)}</td>
       <td className={styles.table__cell}>
-        <div className="table__buttons">
+        <div className={styles.table__buttons}>
           <TextButton>Редактировать</TextButton>
           <TextButton>Удалить</TextButton>
         </div>

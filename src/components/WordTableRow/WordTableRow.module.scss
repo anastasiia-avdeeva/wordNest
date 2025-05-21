@@ -3,6 +3,7 @@
 
 .table {
   &__cell {
+    padding: $cell-padding;
     height: $row-height;
     border-right: 1px solid $primary;
     border-top: 1px solid $primary;
@@ -11,8 +12,19 @@
       font-weight: bold;
     }
 
+    // &:not(:first-child) {
+    //   color: $text-dark;
+    // }
+
     &:last-child {
       border-right: none;
     }
+  }
+
+  &__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
   }
 }
