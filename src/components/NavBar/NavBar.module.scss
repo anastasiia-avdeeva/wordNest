@@ -10,3 +10,15 @@
     color: $text-dark;
   }
 }
+
+.header {
+  &__list {
+    @include Body2-font;
+  }
+}
+
+.footer {
+  &__list {
+    @include Body3-font;
+  }
+}

@@ -11,7 +11,7 @@ export const SiteHeader = () => {
     <header className={styles.header}>
       <div className={styles["header__first-line"]}>
         <SiteLogo variant="header__logo" icon={logo} />
-        <NavBar />
+        <NavBar variant="header" />
         <SearchPanel inputId="headerSearch" inputName="headerSearch" />
       </div>
     </header>
