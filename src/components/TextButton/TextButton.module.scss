@@ -4,7 +4,7 @@
 .button {
   padding: 6px 20px;
   border: none;
-  border-radius: 100px;
+  border-radius: $text-btn-rad;
   @include Body3-font;
   color: $text-white;
   transition: transform 0.2s ease;

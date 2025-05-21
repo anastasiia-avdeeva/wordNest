@@ -5,7 +5,6 @@
 .search-panel__input {
   padding: 4px;
   height: 40px;
-  min-width: 180px;
   border: 1px solid #c3dce3;
   border-radius: 6px;
   font-family: "Montserrat", sans-serif;
@@ -14,7 +13,9 @@
   line-height: 140%;
   font-size: 20px;
   letter-spacing: -0.64px;
+  min-width: 180px;
 }
 .search-panel__input:focus {
+  border-width: 1.5px;
   border-color: #2b788b;
 }

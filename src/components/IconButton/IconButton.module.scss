@@ -3,7 +3,7 @@
 .button {
   padding: 4px;
   border: none;
-  border-radius: 6px;
+  border-radius: $icon-btn-rad;
   transition: transform 0.2s ease;
 
   &:hover {
