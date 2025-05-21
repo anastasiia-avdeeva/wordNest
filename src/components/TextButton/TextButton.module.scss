@@ -5,7 +5,8 @@
   padding: 6px 20px;
   border: none;
   border-radius: $text-btn-rad;
-  @include Body3-font;
+  // @include Body3-font;
+  @include Button2-font;
   color: $text-white;
   transition: transform 0.2s ease;
 
