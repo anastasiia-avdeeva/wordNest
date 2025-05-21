@@ -7,6 +7,34 @@
   font-style: normal;
 }
 
+@mixin Heading1-font {
+  @include Heading-base-font;
+  font-size: 58px;
+  line-height: 120%;
+  letter-spacing: -2.24px;
+}
+
+@mixin Heading2-font {
+  @include Heading-base-font;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: -1.92px;
+}
+
+@mixin Heading3-font {
+  @include Heading-base-font;
+  font-size: 42px;
+  line-height: 100%;
+  letter-spacing: -1.28px;
+}
+
+@mixin Heading4-font {
+  @include Heading-base-font;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -1.04px;
+}
+
 @mixin Text-base-font {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -40,6 +68,39 @@
   @include Body-label-font;
   font-size: 16px;
   letter-spacing: -0.48px;
+}
+
+@mixin Button-base-font {
+  @include Text-base-font;
+  font-weight: 700;
+}
+
+@mixin Button1-font {
+  @include Button-base-font;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: -0.72px;
+}
+
+@mixin Button2-font {
+  @include Button-base-font;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: -0.64px;
+}
+
+@mixin Link1-font {
+  @include Text-base-font;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 171%;
+}
+
+@mixin Link2-font {
+  @include Text-base-font;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
 }
 
 //inputs
