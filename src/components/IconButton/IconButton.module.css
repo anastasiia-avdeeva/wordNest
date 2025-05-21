@@ -2,6 +2,10 @@
   padding: 4px;
   border: none;
   border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+.button:hover {
+  transform: scale(1.1);
 }
 .button__icon {
   height: auto;
