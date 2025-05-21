@@ -10,9 +10,3 @@
 .table__cell:last-child {
   border-right: none;
 }
-.table__buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-}
